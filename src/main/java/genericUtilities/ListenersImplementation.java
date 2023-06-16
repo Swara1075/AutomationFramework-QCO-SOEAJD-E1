@@ -49,16 +49,16 @@ public class ListenersImplementation implements ITestListener {
 		test.log(Status.WARNING, result.getThrowable());
 		
 		
-		//Take ScreenShot
-		String screenShotName=methodName+"-"+new JavaUtility().getSystemDateInFormat();
-		WebDriverUtility wUtil=new WebDriverUtility();
-		try {
-			String path = wUtil.takeScreenShot(BaseClass.sDriver, screenShotName);
-			test.addScreenCaptureFromPath(path);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+//		//Take ScreenShot
+//		String screenShotName=methodName+"-"+new JavaUtility().getSystemDateInFormat();
+//		WebDriverUtility wUtil=new WebDriverUtility();
+//		try {
+//			String path = wUtil.takeScreenShot(BaseClass.sDriver, screenShotName);
+//			test.addScreenCaptureFromPath(path);
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		}
 
 	public void onTestSkipped(ITestResult result) {
