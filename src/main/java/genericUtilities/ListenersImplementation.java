@@ -28,7 +28,7 @@ public class ListenersImplementation implements ITestListener {
 		System.out.println(methodName+"-----Test Execution Started-----");
 		
 		test=report.createTest(methodName);
-		test.log(Status.INFO, "->Started");	
+		test.log(Status.INFO, methodName+ "->Started");	
 	}
 
 	public void onTestSuccess(ITestResult result) {
@@ -36,7 +36,7 @@ public class ListenersImplementation implements ITestListener {
 		String methodName = result.getMethod().getMethodName();
 		System.out.println(methodName+"-----Test Execution Successfull-----");
 		
-		test.log(Status.PASS, "->Pass");
+		test.log(Status.PASS, methodName+ "->Pass");
 	}
 
 	public void onTestFailure(ITestResult result) {
@@ -45,13 +45,13 @@ public class ListenersImplementation implements ITestListener {
 		System.out.println(methodName+"-----Test Execution Failed-----");
 		System.out.println(result.getThrowable());
 		
-		test.log(Status.FAIL, "->Fail");
+		test.log(Status.FAIL, methodName+ "->Fail");
 		test.log(Status.WARNING, result.getThrowable());
 		
 		
 		//Take ScreenShot
-		WebDriverUtility wUtil=new WebDriverUtility();
 		String screenShotName=methodName+"-"+new JavaUtility().getSystemDateInFormat();
+		WebDriverUtility wUtil=new WebDriverUtility();
 		try {
 			String path = wUtil.takeScreenShot(BaseClass.sDriver, screenShotName);
 			test.addScreenCaptureFromPath(path);
@@ -67,7 +67,7 @@ public class ListenersImplementation implements ITestListener {
 		System.out.println(methodName+"-----Test Execution Skipped-----");
 		System.out.println(result.getThrowable());
 		
-		test.log(Status.SKIP, "->Skip");
+		test.log(Status.SKIP, methodName+ "->Skip");
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {

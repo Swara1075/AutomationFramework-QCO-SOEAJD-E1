@@ -1,233 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="4" ignored="0" total="5" passed="0" failed="1" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Navigated to Organizations link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Create Organization look Up Image]]>
+    </line>
+    <line>
+      <![CDATA[Created Organization with Mandatory fields]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-06-09T15:37:56 IST" name="Default suite" finished-at="2023-06-09T15:37:56 IST" duration-ms="78">
+  <suite started-at="2023-06-16T15:40:49 IST" name="Suite" finished-at="2023-06-16T15:41:25 IST" duration-ms="36199">
     <groups>
+      <group name="SmokeSuite">
+        <method signature="CreateNewOrganizationWithDropDownWithBaseClassTest.createOrganizatioWithDropDowns()[pri:0, instance:vtiger.OrganizationsTests.CreateNewOrganizationWithDropDownWithBaseClassTest@7205765b]" name="createOrganizatioWithDropDowns" class="vtiger.OrganizationsTests.CreateNewOrganizationWithDropDownWithBaseClassTest"/>
+      </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2023-06-09T15:37:56 IST" name="Default test" finished-at="2023-06-09T15:37:56 IST" duration-ms="78">
-      <class name="vtiger.Practice.RetryAnalyserPractice">
-        <test-method retried="true" signature="retryAnalyser()[pri:0, instance:vtiger.Practice.RetryAnalyserPractice@3d5c822d]" started-at="2023-06-09T15:37:56 IST" name="retryAnalyser" finished-at="2023-06-09T15:37:56 IST" duration-ms="19" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at vtiger.Practice.RetryAnalyserPractice.retryAnalyser(RetryAnalyserPractice.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+    <test started-at="2023-06-16T15:40:49 IST" name="Test" finished-at="2023-06-16T15:41:25 IST" duration-ms="36199">
+      <class name="vtiger.OrganizationsTests.CreateNewOrganizationWithDropDownWithBaseClassTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateNewOrganizationWithDropDownWithBaseClassTest@7205765b]" started-at="2023-06-16T15:40:49 IST" name="bsConfig" finished-at="2023-06-16T15:40:49 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- retryAnalyser -->
-        <test-method retried="true" signature="retryAnalyser()[pri:0, instance:vtiger.Practice.RetryAnalyserPractice@3d5c822d]" started-at="2023-06-09T15:37:56 IST" name="retryAnalyser" finished-at="2023-06-09T15:37:56 IST" duration-ms="3" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at vtiger.Practice.RetryAnalyserPractice.retryAnalyser(RetryAnalyserPractice.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateNewOrganizationWithDropDownWithBaseClassTest@7205765b]" started-at="2023-06-16T15:40:50 IST" name="bcConfig" finished-at="2023-06-16T15:40:59 IST" duration-ms="9100" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- retryAnalyser -->
-        <test-method retried="true" signature="retryAnalyser()[pri:0, instance:vtiger.Practice.RetryAnalyserPractice@3d5c822d]" started-at="2023-06-09T15:37:56 IST" name="retryAnalyser" finished-at="2023-06-09T15:37:56 IST" duration-ms="1" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at vtiger.Practice.RetryAnalyserPractice.retryAnalyser(RetryAnalyserPractice.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateNewOrganizationWithDropDownWithBaseClassTest@7205765b]" started-at="2023-06-16T15:40:59 IST" name="bmConfig" finished-at="2023-06-16T15:41:05 IST" duration-ms="6182" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- retryAnalyser -->
-        <test-method retried="true" signature="retryAnalyser()[pri:0, instance:vtiger.Practice.RetryAnalyserPractice@3d5c822d]" started-at="2023-06-09T15:37:56 IST" name="retryAnalyser" finished-at="2023-06-09T15:37:56 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at vtiger.Practice.RetryAnalyserPractice.retryAnalyser(RetryAnalyserPractice.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createOrganizatioWithDropDowns()[pri:0, instance:vtiger.OrganizationsTests.CreateNewOrganizationWithDropDownWithBaseClassTest@7205765b]" started-at="2023-06-16T15:41:05 IST" name="createOrganizatioWithDropDowns" finished-at="2023-06-16T15:41:24 IST" duration-ms="18718" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to Organizations link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Create Organization look Up Image]]>
+            </line>
+            <line>
+              <![CDATA[Created Organization with Mandatory fields]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrganizatioWithDropDowns -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateNewOrganizationWithDropDownWithBaseClassTest@7205765b]" started-at="2023-06-16T15:41:24 IST" name="amConfig" finished-at="2023-06-16T15:41:25 IST" duration-ms="1626" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- retryAnalyser -->
-        <test-method signature="retryAnalyser()[pri:0, instance:vtiger.Practice.RetryAnalyserPractice@3d5c822d]" started-at="2023-06-09T15:37:56 IST" name="retryAnalyser" finished-at="2023-06-09T15:37:56 IST" duration-ms="0" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.fail(Assert.java:106)
-at vtiger.Practice.RetryAnalyserPractice.retryAnalyser(RetryAnalyserPractice.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateNewOrganizationWithDropDownWithBaseClassTest@7205765b]" started-at="2023-06-16T15:41:25 IST" name="acConfig" finished-at="2023-06-16T15:41:25 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- retryAnalyser -->
-      </class> <!-- vtiger.Practice.RetryAnalyserPractice -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.OrganizationsTests.CreateNewOrganizationWithDropDownWithBaseClassTest@7205765b]" started-at="2023-06-16T15:41:26 IST" name="asConfig" finished-at="2023-06-16T15:41:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- vtiger.OrganizationsTests.CreateNewOrganizationWithDropDownWithBaseClassTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
